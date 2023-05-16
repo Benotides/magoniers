@@ -11,7 +11,7 @@ export default {
 <template>
   <NavBar />
   <header class="container">
-    <img class="logo" src="../src/assets/28802.jpg" alt="fotonovios" />
+    <img class="logo" src="../src/assets/fotopareja.jpeg" alt="fotonovios" />
     <div class="wrapper"></div>
   </header>
   <RouterView />
@@ -40,9 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('../src/assets/canmates.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(231, 228, 224);
 }
 
 header {
@@ -67,11 +65,22 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+  
   .logo {
-    width: 210px;
-    height: 210px;
-    margin-top: 5%;
+    width: 250px;
+    height: 250px;
+    margin-top: -12%;
+    border-radius: 80%;
+    opacity: 1;
   }
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
 }
 
 /* Estilos para pantalla de PC */

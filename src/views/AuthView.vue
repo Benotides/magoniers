@@ -23,7 +23,7 @@ export default {
   justify-content: center;
   height: 100vh;
   font-family: sans-serif;
-  background-image: url('../assets/Fotofondo.jpg');
+  background-image: url('../assets/pals2.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
  

@@ -56,12 +56,12 @@ export default {
 h1 {
   font-family: 'Aniron', sans-serif;
   margin-top: -50%;
-  color: rgb(172, 124, 124);
+  color: rgb(47, 68, 92);
   align-self: center;
   font-size: 50px;
 }
 label {
-  color: rgb(228, 165, 88);
+  color: rgb(124, 94, 56);
   margin-bottom: 3%;
   text-align: center;
 }
@@ -72,6 +72,8 @@ label {
   margin-top: 50px;
   font-family: 'Aniron', sans-serif;
   height: auto;
+  
+  
 }
 
 .signin-form-input {
@@ -112,7 +114,8 @@ button {
     font-size: 30px;
     text-align: center;
     margin-top: -70%;
-    color: antiquewhite;
+    color: rgb(47, 68, 92);
+
   }
 }
 
@@ -128,8 +131,16 @@ button {
 }
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 28px;
-    text-align: center;
-  }
+  font-family: 'corbel light';
+  /* margin-top: -20%; */
+  color: rgba(133, 125, 117, 0.822);
+  align-self: center;
+  font-size: 30px;
+}
+  .signin-form-button {
+  background-color: rgba(255, 255, 255, 0.8); 
+ width: 40%;
+ font-size: 10px;
+}
 }
 </style>
