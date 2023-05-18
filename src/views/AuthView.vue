@@ -1,5 +1,6 @@
 <template>
-  <div class="auth-view">
+  <div  class="auth-view">
+    yo soy auth view
     <RouterView />
   </div>
 </template>

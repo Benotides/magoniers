@@ -1,12 +1,13 @@
 <template>
   <div>
     <nav>
-      <RouterLink to="/" class="nav-link">Ceremonia</RouterLink>
-      <RouterLink to="/auth/sign-in" class="nav-link">Convite</RouterLink>
-      <RouterLink to="/auth/sign-up" class="nav-link">Rellenar formulario</RouterLink>
-      <RouterLink to="/auth/ceremonia" class="nav-link">Mapa de acceso</RouterLink>
-      <RouterLink to="/auth/sign-up" class="nav-link">Buses</RouterLink>
-      <RouterLink to="/auth/sign-up" class="nav-link">Nuestra aventura...</RouterLink>
+      <RouterLink to="/auth/signin"  class="nav-link"></RouterLink>
+      <RouterLink to="/Mapa"  class="nav-link">Mapa de acceso</RouterLink>
+      <RouterLink to="/Convite" class="nav-link">Convite</RouterLink>
+      <RouterLink to="/HomeView" class="nav-link">Rellenar formulario</RouterLink>
+      <RouterLink to="/Ceremonia" class="nav-link">Ceremonia</RouterLink>
+      <RouterLink to="/auth/Signin" class="nav-link">Buses</RouterLink>
+      <RouterLink to="/auth/Signin" class="nav-link">Nuestra aventura...</RouterLink>
     </nav>
   </div>
 </template>
@@ -28,7 +29,7 @@ nav {
 .nav-link {
   font-family: 'Aniron', sans-serif;
   opacity: 1;
-  color: rgb(95, 62, 22);
+  color: rgb(219, 210, 198);
   text-decoration: none;
   margin: 0 3rem;
   font-size: 1rem;
@@ -53,7 +54,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   nav {
     flex-direction: column;
     background-color: #aaa;
@@ -70,7 +71,8 @@ nav {
   }
   .nav-link {
     font-family: 'corbel light';
-    color: rgba(226, 214, 202, 0.822);
+    color: rgba(233, 227, 220, 0.801);
+    font-weight: bolder;
     text-decoration: none;
     margin-left:6%;
     font-size: 20px;

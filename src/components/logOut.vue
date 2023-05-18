@@ -20,7 +20,7 @@ export default {
         await this.signOut()
         this._removeAllTasks()
         this.$router.push({
-          name: 'signIn'
+          name: 'Auth'
         })
       } catch (err) {
         console.error(err)
@@ -35,7 +35,7 @@ export default {
 .signout {
   font-family: 'Aniron', sans-serif;
   margin-top: 1rem;
-  background-color: #a97f50;
+  background-color: #c9bbac;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -53,7 +53,7 @@ button:hover {
 @media (max-width: 480px) {
   .signout {
     margin-top: 1rem;
-    background-color: #a97f50;
+    background-color: #b8aa9b;
     color: white;
     border: none;
     padding: 0.5rem 1rem;

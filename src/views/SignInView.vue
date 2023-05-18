@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>¡Nos casamos!</h1>
+  
     <form class="signin-form">
       <label for="email">Por favor rellena con tu email</label>
       <input class="signin-form-input" type="email" id="email" v-model="email" />
@@ -32,19 +32,15 @@ export default {
   },
   methods: {
     ...mapActions(userStore, ['signIn']),
-    async _handleSignIn() {
-      try {
+    _handleSignIn() {
+   
         const userData = {
           email: this.email,
           password: this.password
         }
-        await this.signIn(userData)
-        this.$router.push({
-          name: 'home'
-        })
-      } catch (err) {
-        console.error(err)
-      }
+        this.signIn(userData)
+        
+     
     }
   }
 }

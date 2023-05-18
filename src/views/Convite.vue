@@ -1,6 +1,6 @@
 <template>
     <div>
-       <h1> Mapa</h1> 
+       <h1> Convite</h1> 
     </div>
     <RouterView />
 </template>
@@ -8,7 +8,7 @@
 <script>
 import { RouterView } from 'vue-router'
 export default {
-    name: 'Mapa',
+    name: 'Convite',
     components: {
     RouterView
   },
