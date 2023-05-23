@@ -1,38 +1,143 @@
 <template>
-  <div  class="auth-view">
-    yo soy auth view
-    <RouterView />
-  </div>
+<body>
+    <div class="auth-view">
+        <div class="imagen">
+          <p>Ceremonia día 25 de octubre <br>
+    Monestir de Sant Cugat 11.30 <br>
+    Por favor confirma asistencia <RouterLink to="/HomeView" class="nav-link"><button class="icon-button"><i class="fas fa-edit"></i></button></RouterLink></p>
+
+
+        </div>
+        <RouterView />
+    </div>
+
+</body>
 </template>
 
 <script>
-import { RouterView } from 'vue-router'
+import {
+    RouterView
+} from 'vue-router'
 
 export default {
-  name: 'AuthView',
-  components: {
-    RouterView
-  }
+    name: 'AuthView',
+    components: {
+        RouterView
+    }
 }
 </script>
 
 <style scoped>
-.auth-view {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: sans-serif;
-  background-image: url('../assets/pals2.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
- 
+    body {
 
+        /* background-image: url('../src/assets/pals1.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+
+    }
+    .icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-.auth-view__title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+    h1 {
+        font-family: 'corbel light';
+
+        color: rgba(133, 125, 117, 0.822);
+        font-size: 50px;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 100%;
+        margin: 0 auto 1rem;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'corbel light';
+        font-size: 30px;
+        color: rgba(177, 109, 40, 0.822);
+        white-space: pre-line;
+        font-weight: bolder;
+        margin-top: 30%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(231, 228, 224);
+    
+    }
+
+    header {
+        line-height: 1.5;
+        max-height: 100vh;
+    }
+
+@media screen and (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+
+    }
+
+    .imagen {
+        background-image: url('../src/assets/MENORCA3.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 18%;
+        border-radius: 15px;
+
+
+    }
+
+    p {
+        text-align: center;
+        font-family: 'corbel light';
+        color: rgba(177, 109, 40, 0.822);
+        white-space: pre-line;
+        font-weight: bolder;
+        height: 430px;
+        font-size: 15px;
+        width: auto;
+        margin-top: 20%;
+        padding: 2%;
+    }
+
+    .auth-view {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(231, 228, 224);
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>
