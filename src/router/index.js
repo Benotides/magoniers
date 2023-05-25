@@ -4,7 +4,7 @@ import Mapa from '@/views/Mapa.vue'
 import HomeView from '@/views/HomeView.vue'
 import AuthView from '@/views/AuthView.vue'
 import Buses from '@/views/Buses.vue'
-import Ceremonia from '../views/Ceremonia.vue'
+import Boda from '../views/Boda.vue'
 import NuestraAventura from '@/views/NuestraAventura.vue'
 
 const router = createRouter({
@@ -20,9 +20,9 @@ const router = createRouter({
       component: AuthView
     },
     {
-      path: '/Ceremonia',
-      name: 'Ceremonia',
-      component: Ceremonia
+      path: '/Boda',
+      name: 'Boda',
+      component: Boda
     },
 
     {

@@ -4,7 +4,7 @@
       <h1 class="title">Convite</h1>
       <p>
         Masia Mas Vidrier abre sus puertas a las 13.30 horas
-        <br />
+        <br>
         Cierre de fiesta a las 11.30 pm
       </p>
     </div>
