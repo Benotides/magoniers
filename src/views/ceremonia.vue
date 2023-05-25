@@ -16,7 +16,7 @@
 <script>
 import { RouterView } from 'vue-router'
 export default {
-  name: 'CeremoniaMonestir',
+  name: 'Ceremonia',
   components: {
     RouterView
   },
