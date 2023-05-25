@@ -99,13 +99,16 @@ header {
     background-image: url('../src/assets/MENORCA3.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
 
     justify-content: center;
 
     align-items: center;
     text-align: center;
     align-self: center;
-    margin-bottom: 18%;
+    margin-top: 10%;
+    margin-bottom: 12%;
     border-radius: 10px;
   }
 
@@ -128,7 +131,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(231, 228, 224);
+    background-color: rgba(224, 225, 231, 0.637);
     width: 100%;
     height: 100%;
   }

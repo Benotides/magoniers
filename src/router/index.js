@@ -21,7 +21,7 @@ const router = createRouter({
     },
     {
       path: '/ceremonia',
-      name: 'Ceremonia',
+      name: 'CeremoniaMonestir',
       component: Ceremonia
     },
 
