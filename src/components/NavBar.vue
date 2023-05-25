@@ -13,8 +13,8 @@
         <i class="fas fa-edit" title="Rellenar formulario"></i>
         <span class="link-text"></span>
       </RouterLink>
-      <RouterLink to="/Ceremonia" class="nav-link">
-        <i class="fas fa-heart" title="Ceremonia"></i>
+      <RouterLink to="/Boda" class="nav-link">
+        <i class="fas fa-heart" title="Boda"></i>
         <span class="link-text"></span>
       </RouterLink>
       <RouterLink to="/Buses" class="nav-link">
