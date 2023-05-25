@@ -19,11 +19,11 @@
             <i class="fas fa-heart" title="Ceremonia"></i>
             <span class="link-text"></span>
         </RouterLink>
-        <RouterLink to="/auth" class="nav-link">
+        <RouterLink to="/Buses" class="nav-link">
             <i class="fas fa-bus" title="Buses"></i>
             <span class="link-text"></span>
         </RouterLink>
-        <RouterLink to="/auth" class="nav-link">
+        <RouterLink to="/NuestraAventura" class="nav-link">
             <i class="fas fa-compass" title="Nuestra aventura..."></i>
             <span class="link-text">.</span>
         </RouterLink>

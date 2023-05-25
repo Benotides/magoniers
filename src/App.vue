@@ -1,9 +1,12 @@
 <script>
 import NavBar from '../src/components/NavBar.vue'
+import FooterView from '../src/components/FooterView.vue'
+
 export default {
     name: 'App',
     components: {
         NavBar,
+        FooterView,
 
     }
 }
@@ -17,16 +20,19 @@ export default {
     <h1>María & Gonzalo</h1>
 </header>
 <RouterView />
+<footer>
+    <FooterView />
+</footer>
 </template>
 
 <style scoped>
 .logo {
     display: block;
     margin: 0 auto;
-    width: 170px;
-    height: 200px;
+    width: 130px;
+    height: 155px;
 
-    border-radius:200px;
+    border-radius: 200px;
     margin: 0 auto 1rem;
 }
 
@@ -36,7 +42,12 @@ export default {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(231, 228, 224);
+    background-color: rgba(224, 225, 231, 0.637);
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 
@@ -50,5 +61,6 @@ h1 {
 
     color: rgba(133, 125, 117, 0.822);
     font-size: 25px;
+    font-style: italic;
 }
 </style>

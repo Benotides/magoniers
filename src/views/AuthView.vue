@@ -104,14 +104,14 @@ export default {
         background-image: url('../src/assets/MENORCA3.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 450px;
+ 
         justify-content: center;
-        flex-direction: column;
+    
         align-items: center;
         text-align: center;
         align-self: center;
         margin-bottom: 18%;
-        border-radius: 15px;
+        border-radius: 10px;
 
 
     }
@@ -119,14 +119,14 @@ export default {
     p {
         text-align: center;
         font-family: 'corbel light';
-        color: rgba(177, 109, 40, 0.822);
+        color: rgba(105, 62, 18, 0.822);
         white-space: pre-line;
         font-weight: bolder;
-        height: 430px;
         font-size: 15px;
         width: auto;
-        margin-top: 20%;
+        margin-top: 11%;
         padding: 2%;
+        height: 200px;
     }
 
     .auth-view {

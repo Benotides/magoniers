@@ -29,7 +29,6 @@
 <script>
 import {
     mapState,
-    mapActions
 } from 'pinia'
 import taskStore from '@/stores/taskStore.js'
 import userStore from '@/stores/user.js'
@@ -156,8 +155,10 @@ input[type='text'] {
     }
 
     h1 {
-        font-size: 1.2rem;
-        font-family: 'corbel light';
+        font-family: 'Cormorant Garamond', serif;
+    color: rgb(128, 86, 36);
+    font-size: 30px;
+    text-align: center;
     }
 
     .add {
@@ -167,12 +168,23 @@ input[type='text'] {
 
     tbody td {
         border: 1px solid #ccc;
-        padding:
+        
     }
 
     .tareasnuevas {
         font-size: 18px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button {
+        margin-bottom: 6%;
+        width: 50%;
+        align-self: center;
+        margin-top: 6%;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #dbd7d2;
+        border: 1px solid #ccc;
+        color: rgb(107, 67, 18);
     }
 }
 </style>
