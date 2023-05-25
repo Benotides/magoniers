@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Ceremonia from '@/views/Ceremonia.vue'
+import Ceremonia from '../views/Ceremonia.vue'
 import Convite from '@/views/Convite.vue'
 import Mapa from '@/views/Mapa.vue'
 import HomeView from '@/views/HomeView.vue'
@@ -20,8 +20,8 @@ const router = createRouter({
       component: AuthView
     },
     {
-      path: '/ceremonia',
-      name: 'CeremoniaMonestir',
+      path: '/Ceremonia',
+      name: 'Ceremonia',
       component: Ceremonia
     },
 
