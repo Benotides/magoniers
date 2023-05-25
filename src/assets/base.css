@@ -15,11 +15,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url('../CormorantGaramond-Medium.ttf');
   /* Agrega aquí otras variantes de la fuente si las tienes */
 }
-

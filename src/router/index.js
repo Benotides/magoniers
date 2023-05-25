@@ -17,45 +17,40 @@ const router = createRouter({
     {
       path: '/auth',
       name: 'Auth',
-      component: AuthView,
+      component: AuthView
     },
     {
       path: '/ceremonia',
       name: 'Ceremonia',
-      component: Ceremonia,
+      component: Ceremonia
     },
 
     {
       path: '/Convite',
       name: 'Convite',
-      component: Convite,
+      component: Convite
     },
     {
       path: '/HomeView',
       name: 'Home',
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/Mapa',
       name: 'Mapa',
-      component: Mapa,
+      component: Mapa
     },
     {
       path: '/Buses',
       name: 'Buses',
-      component: Buses,
+      component: Buses
     },
     {
       path: '/NuestraAventura',
       name: 'NuestraAventura',
-      component: NuestraAventura,
-    },
-
-    
-    
-    
+      component: NuestraAventura
+    }
   ]
 })
-
 
 export default router

@@ -1,52 +1,43 @@
 <template>
-<div>
-    <h1> Mapa</h1>
-    <div><img class="mapa" src="../assets/Mapa.jpeg" alt="mapafoto" />
-        <img class="indicaciones" src="../assets/Indicaciones.jpeg" alt="ruta" />
+  <div>
+    <h1>Mapa</h1>
+    <div>
+      <img class="mapa" src="../assets/Mapa.jpeg" alt="mapafoto" />
+      <img class="indicaciones" src="../assets/Indicaciones.jpeg" alt="ruta" />
     </div>
-</div>
+  </div>
 
-<RouterView />
+  <RouterView />
 </template>
 
-    
 <script>
-import {
-    RouterView
-} from 'vue-router'
+import { RouterView } from 'vue-router'
 export default {
-    name: 'Buses',
-    components: {
-        RouterView
-    },
-    data() {
-        return {
+  name: 'Buses',
+  components: {
+    RouterView
+  },
+  data() {
+    return {}
+  },
 
-        };
-    },
+  mounted() {},
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
-};
+  methods: {}
+}
 </script>
 
-    
 <style scoped>
 img {
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
 }
 
 h1 {
-    font-family: 'Cormorant Garamond', serif;
-    color: rgb(128, 86, 36);
-    font-size: 30px;
-    text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgb(128, 86, 36);
+  font-size: 30px;
+  text-align: center;
 }
 </style>
