@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Ceremonia from '../views/Ceremonia.vue'
 import Convite from '@/views/Convite.vue'
 import Mapa from '@/views/Mapa.vue'
 import HomeView from '@/views/HomeView.vue'
 import AuthView from '@/views/AuthView.vue'
 import Buses from '@/views/Buses.vue'
+import Ceremonia from '../views/Ceremonia.vue'
 import NuestraAventura from '@/views/NuestraAventura.vue'
 
 const router = createRouter({
