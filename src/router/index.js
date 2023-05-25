@@ -4,8 +4,8 @@ import Convite from '@/views/Convite.vue'
 import Mapa from '@/views/Mapa.vue'
 import HomeView from '@/views/HomeView.vue'
 import AuthView from '@/views/AuthView.vue'
-
-
+import Buses from '@/views/Buses.vue'
+import NuestraAventura from '@/views/NuestraAventura.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,11 +40,20 @@ const router = createRouter({
       name: 'Mapa',
       component: Mapa,
     },
+    {
+      path: '/Buses',
+      name: 'Buses',
+      component: Buses,
+    },
+    {
+      path: '/NuestraAventura',
+      name: 'NuestraAventura',
+      component: NuestraAventura,
+    },
 
     
     
     
-    // Otras rutas aquí...
   ]
 })
 
