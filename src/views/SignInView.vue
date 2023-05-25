@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-  
     <form class="signin-form">
       <label for="email">Por favor rellena con tu email</label>
       <input class="signin-form-input" type="email" id="email" v-model="email" />
@@ -9,7 +8,7 @@
       <label for="password">¿Vienes con acompañante?</label>
       <input class="signin-form-input" type="password" id="password" v-model="password" />
       <button class="signin-form-button" type="button" @click.prevent="_handleSignIn">
-      Enviar información
+        Enviar información
       </button>
     </form>
   </div>
@@ -33,14 +32,11 @@ export default {
   methods: {
     ...mapActions(userStore, ['signIn']),
     _handleSignIn() {
-   
-        const userData = {
-          email: this.email,
-          password: this.password
-        }
-        this.signIn(userData)
-        
-     
+      const userData = {
+        email: this.email,
+        password: this.password
+      }
+      this.signIn(userData)
     }
   }
 }
@@ -68,8 +64,6 @@ label {
   margin-top: 50px;
   font-family: 'Aniron', sans-serif;
   height: auto;
-  
-  
 }
 
 .signin-form-input {
@@ -111,7 +105,6 @@ button {
     text-align: center;
     margin-top: -70%;
     color: rgb(47, 68, 92);
-
   }
 }
 
@@ -127,16 +120,16 @@ button {
 }
 @media screen and (max-width: 480px) {
   h1 {
-  font-family: 'corbel light';
-  /* margin-top: -20%; */
-  color: rgba(133, 125, 117, 0.822);
-  align-self: center;
-  font-size: 30px;
-}
+    font-family: 'corbel light';
+    /* margin-top: -20%; */
+    color: rgba(133, 125, 117, 0.822);
+    align-self: center;
+    font-size: 30px;
+  }
   .signin-form-button {
-  background-color: rgba(255, 255, 255, 0.8); 
- width: 40%;
- font-size: 10px;
-}
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    font-size: 10px;
+  }
 }
 </style>

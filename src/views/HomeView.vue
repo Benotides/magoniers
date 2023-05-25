@@ -1,7 +1,6 @@
 <template>
   <main>
     <MyTable />
-
   </main>
 </template>
 
@@ -13,8 +12,7 @@ import MyTable from '@/components/MyTable.vue'
 export default {
   name: 'HomeView',
   components: {
-    MyTable,
-  
+    MyTable
   },
   data() {
     return {}
