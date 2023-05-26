@@ -4,30 +4,14 @@
       <h1 class="title">Convite</h1>
       <p>
         Masia Mas Vidrier abre sus puertas a las 13.30 horas
-        <br>
+        <br />
         Cierre de fiesta a las 11.30 pm
       </p>
     </div>
   </div>
-  <RouterView />
 </template>
 
-<script>
-import { RouterView } from 'vue-router'
-export default {
-  name: 'Convite',
-  components: {
-    RouterView
-  },
-  data() {
-    return {}
-  },
-
-  mounted() {},
-
-  methods: {}
-}
-</script>
+<script></script>
 
 <style scoped>
 p {

@@ -8,25 +8,9 @@
     </h1>
     <div><img class="mapa" src="../assets/playasrilanka.jpg" alt="mapafoto" /></div>
   </div>
-  <RouterView />
 </template>
 
-<script>
-import { RouterView } from 'vue-router'
-export default {
-  name: 'NuestraAventura',
-  components: {
-    RouterView
-  },
-  data() {
-    return {}
-  },
-
-  mounted() {},
-
-  methods: {}
-}
-</script>
+<script></script>
 
 <style scoped>
 .foto {
