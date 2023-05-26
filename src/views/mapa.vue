@@ -6,26 +6,9 @@
       <img class="indicaciones" src="../assets/Indicaciones.jpeg" alt="ruta" />
     </div>
   </div>
-
-  <RouterView />
 </template>
 
-<script>
-import { RouterView } from 'vue-router'
-export default {
-  name: 'Mapa',
-  components: {
-    RouterView
-  },
-  data() {
-    return {}
-  },
-
-  mounted() {},
-
-  methods: {}
-}
-</script>
+<script></script>
 
 <style scoped>
 img {
@@ -33,6 +16,7 @@ img {
   height: auto;
   border-radius: 10px;
 }
+
 h1 {
   font-family: 'Cormorant Garamond', serif;
 

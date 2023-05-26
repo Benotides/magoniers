@@ -11,20 +11,20 @@
           ></RouterLink>
         </p>
       </div>
-      <RouterView />
+      <!-- <RouterView /> -->
     </div>
   </body>
 </template>
 
 <script>
-import { RouterView } from 'vue-router'
+// import { RouterView } from 'vue-router'
 
-export default {
-  name: 'AuthView',
-  components: {
-    RouterView
-  }
-}
+// export default {
+//   name: 'AuthView',
+//   components: {
+//     RouterView
+//   }
+// }
 </script>
 
 <style scoped>
@@ -38,6 +38,7 @@ body {
   width: auto;
   height: auto;
 }
+
 .icon-button {
   background-color: transparent;
   border: none;
@@ -72,15 +73,6 @@ p {
   margin-top: 30%;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: rgb(231, 228, 224);
-}
-
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -101,9 +93,7 @@ header {
     background-repeat: no-repeat;
     width: 80%;
     height: 80%;
-
     justify-content: center;
-
     align-items: center;
     text-align: center;
     align-self: center;
@@ -128,12 +118,17 @@ header {
   .auth-view {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+
     align-items: center;
     text-align: center;
     background-color: rgba(224, 225, 231, 0.637);
     width: 100%;
     height: 100%;
+  }
+
+  button {
+    color: rgb(116, 84, 44);
+    font-size: 15px;
   }
 }
 </style>
